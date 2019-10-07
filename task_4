@@ -1,6 +1,6 @@
 x = float(input())
 y = float(input())
-def RingS(x, y):
+def Quarter(x, y):
     if x > 0 and y > 0:
         return "I"
     elif x < 0 and y > 0:
@@ -11,4 +11,4 @@ def RingS(x, y):
         return "IV"
     elif x == 0 and y == 0:
         return "In Center"
-print(RingS(x, y))
+print(Quarter(x, y))
