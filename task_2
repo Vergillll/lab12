@@ -1,4 +1,5 @@
-X = float(input())
+A = float(input())
+B = float(input())
 def Sign(X):
     if X > 0:
         return 1
@@ -6,4 +7,4 @@ def Sign(X):
         return -1
     elif X == 0:
         return 0
-print(Sign(X))
+print(Sign(A) + Sign(B))
