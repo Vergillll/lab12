@@ -1,0 +1,14 @@
+x = float(input())
+y = float(input())
+def RingS(x, y):
+    if x > 0 and y > 0:
+        return "I"
+    elif x < 0 and y > 0:
+        return "II"
+    elif x < 0 and y < 0:
+        return "III"
+    elif x > 0 and y < 0:
+        return "IV"
+    elif x == 0 and y == 0:
+        return "In Center"
+print(RingS(x, y))
