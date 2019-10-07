@@ -1,0 +1,9 @@
+X = float(input())
+def Sign(X):
+    if X > 0:
+        return 1
+    elif X < 0:
+        return -1
+    elif X == 0:
+        return 0
+print(Sign(X))
