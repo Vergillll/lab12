@@ -7,7 +7,7 @@ def Fact2(N):
         k = 2
     elif N % 2 != 0:
         k = 1
-    while N > k:
+    while N >= k:
             Fac = Fac * k
             k += 2
     return Fac
