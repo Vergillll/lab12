@@ -10,5 +10,5 @@ def Fact2(N):
     while N > k:
             Fac = Fac * k
             k += 2
-    return 
+    return Fac
 print(Fact2(N))
